@@ -171,7 +171,172 @@ section {
     color: white;
 
 }
+@media(min-width:1325){
+    
+section {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-image: url(../images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: 0px 100%;
+    background-color: hsl(229, 57%, 11%);
+}
 
+.Fylo-card-folder {
+    background-color: hsl(228, 56%, 26%);
+    padding: 25px 97px 19px 33px;
+    margin-bottom: 185px;
+    border-radius: 10px;
+    border-top-right-radius: 85px;
+}
+
+.Fylo-banner {
+    padding-bottom: 10px;
+}
+
+.Fylo-banner img {
+    width: 74%;
+    height: auto;
+}
+
+.fylo-folder {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.fylo-folder img {
+    padding: 10px 10px 10px 10px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+}
+
+.fylo-folder .banner-color-1 {
+    margin-left: 10px;
+    padding: 13px 8px 10px 9px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+
+}
+
+.fylo-folder .banner-color-2 {
+    margin-left: 10px;
+    padding: 12px 10px 15px 10px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 8px;
+
+}
+
+.fylo-content {
+    margin-bottom: 160px;
+    margin-left: 10px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 13px;
+}
+
+.fylo-component {
+    display: flex;
+    align-items: center;
+
+    padding: 26px 139px 10px 24px;
+    margin-right: 8px;
+}
+
+.fylo-title h2 {
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 144px;
+    right: 377px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+.fylo-title h2 p {
+    color: black;
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+.fylo-title h2 span {
+    color: hsl(0, 0%, 59%);
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 6px;
+    z-index: 2;
+}
+
+.fylo-title h2::before {
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 3px;
+    height: 18px;
+    right: 13px;
+    bottom: 4px;
+    transform: skew(240deg, 85deg);
+}
+
+.fylo-title p {
+    font-size: 13px;
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.fylo-title p span {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.fylo-storage {
+    width: 325px;
+    height: 12px;
+    left: 23px;
+    position: relative;
+    border-radius: 6px;
+    background-color: hsl(229, 57%, 11%);
+    padding: 2px;
+
+}
+
+.fylo-storage::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    transform: translateY(-50%);
+    width: 268px;
+    height: 10px;
+    border-radius: 4px;
+    background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.fylo-gb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 24px;
+    margin-right: 36px;
+}
+
+.content-content-fylo {
+    color: white;
+
+}
+
+}
 @media (max-width:320px) {
     section {
         display: flow;
